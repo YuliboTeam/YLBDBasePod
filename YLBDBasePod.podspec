@@ -39,4 +39,18 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 基础库
+  s.dependency 'YLBCommon'
+  s.dependency 'YLBProUI'
+  s.dependency 'YLBModule'
+  s.dependency 'JLRoutes'
+  
+  # 业务服务
+  s.dependency 'YLBDServices' # 用于YLBModule组件的协议注册
+  
+  # 第三方库
+  s.dependency 'QMUIKit'
+  s.dependency 'MJExtension'
+  
 end
